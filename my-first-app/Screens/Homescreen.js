@@ -8,6 +8,7 @@ import {
   TouchableOpacity,
 } from "react-native";
 
+
 export default function HomeScreen({ navigation }) {
   const [stocks, setStocks] = useState([]);
   const [loading, setLoading] = useState(true);
