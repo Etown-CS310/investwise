@@ -6,8 +6,8 @@ export default function App() {
   const [stocks, setStocks] = useState([]);
   const [loading, setLoading] = useState(true);
 
-  // Free stock API: Finnhub demo
-  const API_KEY = "sandbox_c0t3q2iad3ic4hh5r3dg"; // demo key (replace with free one if you sign up)
+ 
+  const API_KEY = "sandbox_c0t3q2iad3ic4hh5r3dg";  
   const STOCKS = ["AAPL", "GOOGL", "AMZN", "MSFT", "TSLA"];
 
   useEffect(() => {
